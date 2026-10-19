@@ -14,6 +14,15 @@ Tehtävät tarkastetaan automaattisesti [JUnit-yksikkötesteillä](./src/test/ja
 💡 *Tehtävänannossa määritettyjen metodien ja luokkien nimien, parametrien tai paluuarvojen muuttaminen ei ole sallittua testien toimivuuden varmistamiseksi.*
 
 
+## Vastausten lähettäminen
+
+Tämän tehtävän ratkaisuja ei arvioi mikään GitHub Actions -tehtävävirta (YAML-workflow), eikä `git push` käynnistä arviointia. Arvioinnin tekee kurssijärjestelmä: lähetä ratkaisusi tehtävän sivulla kurssijärjestelmässä, jolloin koodisi käännetään ja sille ajetaan tehtävän JUnit-testit.
+
+Pushaa lopuksi kaikki julkiseen GitHub-repositorioosi ja paina tehtävän sivulla **Lähetä tarkistettavaksi** -nappia. Kurssijärjestelmän botti käy silloin hakemassa koodisi repositoriostasi ja tarkistaa sen samoilla testeillä.
+
+💡 *Voit lähettää ratkaisusi niin monta kertaa kuin on tarpeen luvun määräaikaan asti. Voimaan jää paras saamasi tulos.*
+
+
 ## Riippuvuuksien asentaminen
 
 Tämä projektipohja hyödyntää Googlen julkaisemaa [Gson-kirjastoa](https://github.com/google/gson/) JSON-muotoisten tiedostojen käsittelemiseksi. Tiedostojen käsittely on toteutettu valmiina, joten sinun ei itse tarvitse perehtyä Gson-kirjastoon. Lisäksi projektipohjassa hyödynnetään aikaisempien tehtävien tavoin [JUnit-testaustyökalua](https://junit.org/) yksikkötestien suorittamiseksi. Nämä riippuvuudet on määritetty valmiiksi [build.gradle](./build.gradle)-tiedostoon.
